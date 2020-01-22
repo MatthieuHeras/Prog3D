@@ -5,20 +5,23 @@ public class CubeSpawner : MonoBehaviour
 {
     [SerializeField] private Vector3 center;
     [SerializeField] private float size;
-    [SerializeField] private int nbShapes;
-    [SerializeField] private List<GameObject> shapes = new List<GameObject>();
+    [SerializeField] private int nbPrefabs;
+    [SerializeField] private List<GameObject> prefabs = new List<GameObject>();
+    [SerializeField] private int prefabIndex;
     [SerializeField] private int shapeIndex;
 
     private Vector3 formerCenter; // We keep a copy of the value of the editor variables to see if there is any change,
     private float formerRadius; // it avoids instanciating every cube each frame
-    private int formerNbCubes;
+    private int formerNbPrefabs;
+    private int formerPrefabIndex;
     private int formerShapeIndex;
+
     private List<GameObject> createdObjects = new List<GameObject>();
 
     private void Start()
     {
         ResetCenter();
-        ResetShapes();
+        ResetPrefabs();
         ResetRadius();
     }
 
@@ -26,8 +29,8 @@ public class CubeSpawner : MonoBehaviour
     {
         if (!formerCenter.Equals(center))
             ResetCenter();
-        if (!formerNbCubes.Equals(nbShapes) || !formerShapeIndex.Equals(shapeIndex))
-            ResetShapes();
+        if (!formerNbPrefabs.Equals(nbPrefabs) || !formerPrefabIndex.Equals(prefabIndex) || !formerShapeIndex.Equals(shapeIndex))
+            ResetPrefabs();
         if (!formerRadius.Equals(size))
             ResetRadius();
     }
@@ -39,17 +42,18 @@ public class CubeSpawner : MonoBehaviour
         formerCenter = center;
     }
 
-    private void ResetShapes()
+    private void ResetPrefabs()
     {
         // Refresh memory and safety
-        if (shapeIndex >= shapes.Count)
-            shapeIndex = shapes.Count - 1;
-        if (shapeIndex < 0)
-            shapeIndex = 0;
+        if (prefabIndex >= prefabs.Count)
+            prefabIndex = prefabs.Count - 1;
+        if (prefabIndex < 0)
+            prefabIndex = 0;
+        formerPrefabIndex = prefabIndex;
+        if (nbPrefabs < 0)
+            nbPrefabs = 0;
+        formerNbPrefabs = nbPrefabs;
         formerShapeIndex = shapeIndex;
-        if (nbShapes < 0)
-            nbShapes = 0;
-        formerNbCubes = nbShapes;
 
         // Destroy current shapes
         while (createdObjects.Count > 0)
@@ -58,20 +62,28 @@ public class CubeSpawner : MonoBehaviour
             createdObjects.RemoveAt(0);
         }
 
-        if (nbShapes == 0 || shapes.Count == 0)
+        if (nbPrefabs == 0 || prefabs.Count == 0)
             return;
         // Create new shapes
-        for(float teta = 0; teta < 360f; teta += (360f / nbShapes))
+        for (float teta = 0; teta < 360f; teta += (360f / nbPrefabs))
         {
-            float alpha = teta - 90f;
-            Vector3 offset = new Vector3(Mathf.Cos(alpha * Mathf.Deg2Rad) * size, Mathf.Cos(alpha * Mathf.Deg2Rad) * Mathf.Sin(alpha * Mathf.Deg2Rad) * size);
-
+            Vector3 offset;
+            switch (shapeIndex)
+            {
+                case 1:
+                    float alpha = teta - 90f;
+                    offset = new Vector3(Mathf.Cos(alpha * Mathf.Deg2Rad) * size, Mathf.Cos(alpha * Mathf.Deg2Rad) * Mathf.Sin(alpha * Mathf.Deg2Rad) * size);
+                    break;
+                default:
+                    offset = new Vector3(Mathf.Cos(teta * Mathf.Deg2Rad) * size, Mathf.Sin(teta * Mathf.Deg2Rad) * size);
+                    break;
+            }
             createdObjects.Add(Instantiate(
-                shapes[shapeIndex], 
-                center + offset, 
-                Quaternion.Euler(0f, 0f, Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg),
-                gameObject.transform
-            ));
+                        prefabs[prefabIndex],
+                        center + offset,
+                        Quaternion.Euler(0f, 0f, Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg + 90f),
+                        gameObject.transform
+                    ));
         }
     }
 
@@ -82,14 +94,24 @@ public class CubeSpawner : MonoBehaviour
             size = 0f;
         formerRadius = size;
 
-        if (nbShapes <= 0 || shapes.Count == 0)
+        if (nbPrefabs <= 0 || prefabs.Count == 0)
             return;
         // Move current shapes
-        for (int i = 0; i * 360f / nbShapes < 360f; i++)
+        for (int i = 0; i * 360f / nbPrefabs < 360f; i++)
         {
-            float alpha = i * 360f / nbShapes - 90f;
-
-            createdObjects[i].transform.position = center + new Vector3(Mathf.Cos(alpha * Mathf.Deg2Rad) * size, Mathf.Cos(alpha * Mathf.Deg2Rad) * Mathf.Sin(alpha * Mathf.Deg2Rad) * size);
+            Vector3 offset;
+            switch (shapeIndex)
+            {
+                case 1:
+                    float alpha = i * 360f / nbPrefabs - 90f;
+                    offset = new Vector3(Mathf.Cos(alpha * Mathf.Deg2Rad) * size, Mathf.Cos(alpha * Mathf.Deg2Rad) * Mathf.Sin(alpha * Mathf.Deg2Rad) * size);
+                    break;
+                default:
+                    alpha = i * 360f / nbPrefabs;
+                    offset = new Vector3(Mathf.Cos(alpha * Mathf.Deg2Rad) * size, Mathf.Sin(alpha * Mathf.Deg2Rad) * size);
+                    break;
+            }
+            createdObjects[i].transform.position = center + offset;
         }
     }
 }

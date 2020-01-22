@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -195,7 +196,7 @@ GameObject:
   - component: {fileID: 438432164}
   - component: {fileID: 438432163}
   m_Layer: 0
-  m_Name: CubeSpawner
+  m_Name: ShapeSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,12 +216,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {x: 0, y: 0, z: 0}
   size: 10
-  nbShapes: 100
-  shapes:
+  nbPrefabs: 100
+  prefabs:
   - {fileID: 8351411296665988316, guid: 76fbfa9db74692c4089c1f85d6872c46, type: 3}
   - {fileID: 8351411296665988316, guid: a47d548cd3c22284a8654277ec413127, type: 3}
   - {fileID: 1271538652431596, guid: 8a3566550e9c0ba46b78e7bcdcb9d056, type: 3}
   - {fileID: 1796137368096064, guid: 7c1543f51c5b8cc488fc53ab3cbffbb1, type: 3}
+  prefabIndex: 0
   shapeIndex: 0
 --- !u!4 &438432164
 Transform:
@@ -344,8 +346,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976427663}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -449,8 +452,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690019222}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 45
