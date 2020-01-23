@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/Animation and Instanciation/[Ll]ibrary/
-/Animation and Instanciation/[Tt]emp/
-/Animation and Instanciation/[Oo]bj/
-/Animation and Instanciation/[Bb]uild/
-/Animation and Instanciation/[Bb]uilds/
-/Animation and Instanciation/[Ll]ogs/
-/Animation and Instanciation/[Mm]emoryCaptures/
+/TP_Prog3D_Cresson_Croquet_Heras/[Ll]ibrary/
+/TP_Prog3D_Cresson_Croquet_Heras/[Tt]emp/
+/TP_Prog3D_Cresson_Croquet_Heras/[Oo]bj/
+/TP_Prog3D_Cresson_Croquet_Heras/[Bb]uild/
+/TP_Prog3D_Cresson_Croquet_Heras/[Bb]uilds/
+/TP_Prog3D_Cresson_Croquet_Heras/[Ll]ogs/
+/TP_Prog3D_Cresson_Croquet_Heras/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
