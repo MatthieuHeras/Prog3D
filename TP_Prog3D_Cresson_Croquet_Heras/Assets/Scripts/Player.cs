@@ -23,8 +23,9 @@ public class Player : MonoBehaviour
     void Update() // Simple 2D controller
     {
         rb.AddRelativeForce(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, Input.GetAxis("Vertical") * speed * Time.deltaTime));
-        rb.rotation = Quaternion.Euler(rb.rotation.eulerAngles.x, 
-            rb.rotation.eulerAngles.y + Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime, 
+
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, 
+            transform.rotation.eulerAngles.y + Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime, 
             0f);
     }
 }
