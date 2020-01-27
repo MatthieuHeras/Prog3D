@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 12599370}
   - component: {fileID: 12599369}
   - component: {fileID: 12599368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,6 +365,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!1 &56247116
@@ -487,6 +492,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!1 &105430841
@@ -503,7 +513,7 @@ GameObject:
   - component: {fileID: 105430845}
   - component: {fileID: 105430844}
   - component: {fileID: 105430843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +670,7 @@ GameObject:
   - component: {fileID: 136272345}
   - component: {fileID: 136272344}
   - component: {fileID: 136272343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -811,7 +821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156343080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,6 +937,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &174516891 stripped
@@ -948,7 +963,7 @@ GameObject:
   - component: {fileID: 175095971}
   - component: {fileID: 175095970}
   - component: {fileID: 175095969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrontBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1078,7 @@ GameObject:
   - component: {fileID: 193907781}
   - component: {fileID: 193907779}
   - component: {fileID: 193907780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 217048705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,7 +1273,7 @@ GameObject:
   - component: {fileID: 243166672}
   - component: {fileID: 243166670}
   - component: {fileID: 243166671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1582,6 +1597,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &292856264 stripped
@@ -1677,6 +1697,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &296141637 stripped
@@ -1699,7 +1724,7 @@ GameObject:
   - component: {fileID: 353485861}
   - component: {fileID: 353485859}
   - component: {fileID: 353485860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1893,7 @@ GameObject:
   - component: {fileID: 424057617}
   - component: {fileID: 424057615}
   - component: {fileID: 424057616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2025,7 +2050,7 @@ GameObject:
   - component: {fileID: 466422751}
   - component: {fileID: 466422750}
   - component: {fileID: 466422749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2255,6 +2280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &499487420 stripped
@@ -2277,7 +2307,7 @@ GameObject:
   - component: {fileID: 516292245}
   - component: {fileID: 516292243}
   - component: {fileID: 516292244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2434,7 +2464,7 @@ GameObject:
   - component: {fileID: 525005883}
   - component: {fileID: 525005881}
   - component: {fileID: 525005882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2591,7 +2621,7 @@ GameObject:
   - component: {fileID: 529956210}
   - component: {fileID: 529956208}
   - component: {fileID: 529956209}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2748,7 +2778,7 @@ GameObject:
   - component: {fileID: 543067422}
   - component: {fileID: 543067420}
   - component: {fileID: 543067421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2902,7 +2932,7 @@ GameObject:
   - component: {fileID: 549953035}
   - component: {fileID: 549953036}
   m_Layer: 0
-  m_Name: SpawnPoint
+  m_Name: BulletSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2916,7 +2946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549953034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1124, y: -0.2227, z: 0.6903}
+  m_LocalPosition: {x: 0.3243998, y: -0.2227, z: 1.0353003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 642431089}
@@ -2937,6 +2967,10 @@ MonoBehaviour:
   ball: {fileID: 2565677909385358088, guid: 4130f782d1a33bd4a871d3e7cba83c19, type: 3}
   spawnCD: 0.1
   speed: 50
+  button: Fire1
+  destroyDelay: 5
+  soundPrefab: {fileID: 2037036231831947627, guid: b51f1830bfbacd74d80b51af2f0fd6a5,
+    type: 3}
 --- !u!1 &568690428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,7 +2985,7 @@ GameObject:
   - component: {fileID: 568690431}
   - component: {fileID: 568690429}
   - component: {fileID: 568690430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3108,7 +3142,7 @@ GameObject:
   - component: {fileID: 570044405}
   - component: {fileID: 570044403}
   - component: {fileID: 570044404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3260,7 +3294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 579454868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3372,6 +3406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &599037672 stripped
@@ -3394,7 +3433,7 @@ GameObject:
   - component: {fileID: 608259429}
   - component: {fileID: 608259427}
   - component: {fileID: 608259428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3624,6 +3663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!1001 &638759273
@@ -3712,6 +3756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eye (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
@@ -3804,6 +3853,7 @@ Transform:
   m_Children:
   - {fileID: 549953035}
   - {fileID: 1607948251}
+  - {fileID: 1102185491}
   m_Father: {fileID: 936734570}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3836,7 +3886,7 @@ GameObject:
   - component: {fileID: 642652886}
   - component: {fileID: 642652885}
   - component: {fileID: 642652884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3993,7 +4043,7 @@ GameObject:
   - component: {fileID: 647555768}
   - component: {fileID: 647555767}
   - component: {fileID: 647555766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4150,7 +4200,7 @@ GameObject:
   - component: {fileID: 668602655}
   - component: {fileID: 668602654}
   - component: {fileID: 668602653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4307,7 +4357,7 @@ GameObject:
   - component: {fileID: 682929103}
   - component: {fileID: 682929102}
   - component: {fileID: 682929101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4537,6 +4587,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &685568891 stripped
@@ -4559,7 +4614,7 @@ GameObject:
   - component: {fileID: 701054595}
   - component: {fileID: 701054593}
   - component: {fileID: 701054594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4716,7 +4771,7 @@ GameObject:
   - component: {fileID: 704115846}
   - component: {fileID: 704115845}
   - component: {fileID: 704115844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4873,7 +4928,7 @@ GameObject:
   - component: {fileID: 716102485}
   - component: {fileID: 716102483}
   - component: {fileID: 716102484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5030,7 +5085,7 @@ GameObject:
   - component: {fileID: 736227408}
   - component: {fileID: 736227407}
   - component: {fileID: 736227406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5187,7 +5242,7 @@ GameObject:
   - component: {fileID: 743601860}
   - component: {fileID: 743601859}
   - component: {fileID: 743601858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5417,6 +5472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!1 &766151233
@@ -5433,7 +5493,7 @@ GameObject:
   - component: {fileID: 766151236}
   - component: {fileID: 766151234}
   - component: {fileID: 766151235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5590,7 +5650,7 @@ GameObject:
   - component: {fileID: 797850418}
   - component: {fileID: 797850416}
   - component: {fileID: 797850417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5747,7 +5807,7 @@ GameObject:
   - component: {fileID: 839114442}
   - component: {fileID: 839114441}
   - component: {fileID: 839114440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5904,7 +5964,7 @@ GameObject:
   - component: {fileID: 844829572}
   - component: {fileID: 844829570}
   - component: {fileID: 844829571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6061,7 +6121,7 @@ GameObject:
   - component: {fileID: 873923869}
   - component: {fileID: 873923868}
   - component: {fileID: 873923867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6218,7 +6278,7 @@ GameObject:
   - component: {fileID: 899528875}
   - component: {fileID: 899528873}
   - component: {fileID: 899528874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6448,6 +6508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &905332162 stripped
@@ -6465,7 +6530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 925411024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6567,7 +6632,7 @@ GameObject:
   - component: {fileID: 960218798}
   - component: {fileID: 960218797}
   - component: {fileID: 960218796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6724,7 +6789,7 @@ GameObject:
   - component: {fileID: 987021398}
   - component: {fileID: 987021397}
   - component: {fileID: 987021396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6880,7 +6945,7 @@ GameObject:
   - component: {fileID: 1001566413}
   - component: {fileID: 1001566412}
   - component: {fileID: 1001566411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7037,7 +7102,7 @@ GameObject:
   - component: {fileID: 1011328070}
   - component: {fileID: 1011328069}
   - component: {fileID: 1011328068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7194,7 +7259,7 @@ GameObject:
   - component: {fileID: 1025994335}
   - component: {fileID: 1025994333}
   - component: {fileID: 1025994334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7351,7 +7416,7 @@ GameObject:
   - component: {fileID: 1055054971}
   - component: {fileID: 1055054970}
   - component: {fileID: 1055054969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7503,7 +7568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061339602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7545,7 +7610,7 @@ GameObject:
   - component: {fileID: 1071295776}
   - component: {fileID: 1071295775}
   - component: {fileID: 1071295774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrontBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7660,7 +7725,7 @@ GameObject:
   - component: {fileID: 1092367805}
   - component: {fileID: 1092367803}
   - component: {fileID: 1092367804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7803,6 +7868,56 @@ Transform:
   m_Father: {fileID: 1061339602}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 47.941, y: 172.766, z: 149.479}
+--- !u!1 &1102185490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102185491}
+  - component: {fileID: 1102185492}
+  m_Layer: 0
+  m_Name: GrenadeSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1102185491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102185490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.324, y: -0.302, z: 0.991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 642431089}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1102185492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102185490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b737a48334a95944b56df750fc7cbab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 2565677909385358088, guid: beed1983e4abb314b9a448e0e0200d00, type: 3}
+  spawnCD: 3
+  speed: 200
+  button: Fire2
+  destroyDelay: 5
+  soundPrefab: {fileID: 2037036231831947627, guid: 2ed95d2307422b547ad79f3954e4668e,
+    type: 3}
 --- !u!1 &1134353894
 GameObject:
   m_ObjectHideFlags: 0
@@ -7812,7 +7927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134353895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7850,7 +7965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1154792812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7889,7 +8004,7 @@ GameObject:
   - component: {fileID: 1183851544}
   - component: {fileID: 1183851543}
   - component: {fileID: 1183851542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8041,7 +8156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1199007424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8079,7 +8194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209472240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8122,7 +8237,7 @@ GameObject:
   - component: {fileID: 1221581611}
   - component: {fileID: 1221581610}
   - component: {fileID: 1221581609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8279,7 +8394,7 @@ GameObject:
   - component: {fileID: 1245045105}
   - component: {fileID: 1245045104}
   - component: {fileID: 1245045103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8436,7 +8551,7 @@ GameObject:
   - component: {fileID: 1255269740}
   - component: {fileID: 1255269739}
   - component: {fileID: 1255269738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8588,7 +8703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264643420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8725,7 +8840,7 @@ GameObject:
   - component: {fileID: 1276712434}
   - component: {fileID: 1276712433}
   - component: {fileID: 1276712432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8882,7 +8997,7 @@ GameObject:
   - component: {fileID: 1290768275}
   - component: {fileID: 1290768274}
   - component: {fileID: 1290768273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9045,7 +9160,7 @@ GameObject:
   - component: {fileID: 1415875719}
   - component: {fileID: 1415875717}
   - component: {fileID: 1415875718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9275,6 +9390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &1441446656 stripped
@@ -9303,7 +9423,7 @@ GameObject:
   - component: {fileID: 1475497943}
   - component: {fileID: 1475497941}
   - component: {fileID: 1475497942}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9533,6 +9653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &1478680026 stripped
@@ -9555,7 +9680,7 @@ GameObject:
   - component: {fileID: 1481383402}
   - component: {fileID: 1481383400}
   - component: {fileID: 1481383401}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9712,7 +9837,7 @@ GameObject:
   - component: {fileID: 1486842517}
   - component: {fileID: 1486842515}
   - component: {fileID: 1486842516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9869,7 +9994,7 @@ GameObject:
   - component: {fileID: 1542192604}
   - component: {fileID: 1542192603}
   - component: {fileID: 1542192602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10026,7 +10151,7 @@ GameObject:
   - component: {fileID: 1554977788}
   - component: {fileID: 1554977786}
   - component: {fileID: 1554977787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10182,7 +10307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427630, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.112
+      value: 0.3239998
       objectReference: {fileID: 0}
     - target: {fileID: 427630, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10190,7 +10315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427630, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0.3450002
       objectReference: {fileID: 0}
     - target: {fileID: 427630, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10239,7 +10364,7 @@ GameObject:
   - component: {fileID: 1566372513}
   - component: {fileID: 1566372512}
   - component: {fileID: 1566372511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrontBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10354,7 +10479,7 @@ GameObject:
   - component: {fileID: 1582661820}
   - component: {fileID: 1582661818}
   - component: {fileID: 1582661819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10511,7 +10636,7 @@ GameObject:
   - component: {fileID: 1594435648}
   - component: {fileID: 1594435646}
   - component: {fileID: 1594435647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10762,7 +10887,7 @@ GameObject:
   - component: {fileID: 1606556988}
   - component: {fileID: 1606556987}
   - component: {fileID: 1606556986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10923,7 +11048,7 @@ GameObject:
   - component: {fileID: 1611441420}
   - component: {fileID: 1611441419}
   - component: {fileID: 1611441418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrontBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11038,7 +11163,7 @@ GameObject:
   - component: {fileID: 1621574598}
   - component: {fileID: 1621574597}
   - component: {fileID: 1621574596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11195,7 +11320,7 @@ GameObject:
   - component: {fileID: 1646795702}
   - component: {fileID: 1646795701}
   - component: {fileID: 1646795700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11352,7 +11477,7 @@ GameObject:
   - component: {fileID: 1665996275}
   - component: {fileID: 1665996273}
   - component: {fileID: 1665996274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11509,7 +11634,7 @@ GameObject:
   - component: {fileID: 1668748298}
   - component: {fileID: 1668748297}
   - component: {fileID: 1668748296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11666,7 +11791,7 @@ GameObject:
   - component: {fileID: 1691874350}
   - component: {fileID: 1691874348}
   - component: {fileID: 1691874349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11823,7 +11948,7 @@ GameObject:
   - component: {fileID: 1752156834}
   - component: {fileID: 1752156833}
   - component: {fileID: 1752156832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11980,7 +12105,7 @@ GameObject:
   - component: {fileID: 1766230962}
   - component: {fileID: 1766230961}
   - component: {fileID: 1766230960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BackBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12131,7 +12256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1773143522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12174,7 +12299,7 @@ GameObject:
   - component: {fileID: 1780599237}
   - component: {fileID: 1780599235}
   - component: {fileID: 1780599236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12331,7 +12456,7 @@ GameObject:
   - component: {fileID: 1785574545}
   - component: {fileID: 1785574543}
   - component: {fileID: 1785574544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12483,7 +12608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797855550}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spiders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12517,7 +12642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800486045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12556,7 +12681,7 @@ GameObject:
   - component: {fileID: 1813868117}
   - component: {fileID: 1813868116}
   - component: {fileID: 1813868115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12713,7 +12838,7 @@ GameObject:
   - component: {fileID: 1834607268}
   - component: {fileID: 1834607267}
   - component: {fileID: 1834607266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12885,7 +13010,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -13035,6 +13160,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &1903729479 stripped
@@ -13057,7 +13187,7 @@ GameObject:
   - component: {fileID: 1955437221}
   - component: {fileID: 1955437220}
   - component: {fileID: 1955437219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13214,7 +13344,7 @@ GameObject:
   - component: {fileID: 1965690593}
   - component: {fileID: 1965690591}
   - component: {fileID: 1965690592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13371,7 +13501,7 @@ GameObject:
   - component: {fileID: 1989824896}
   - component: {fileID: 1989824894}
   - component: {fileID: 1989824895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13528,7 +13658,7 @@ GameObject:
   - component: {fileID: 2024945149}
   - component: {fileID: 2024945148}
   - component: {fileID: 2024945147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13758,6 +13888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eye
       objectReference: {fileID: 0}
+    - target: {fileID: 8351411296665988316, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4fbc7778e0c964ba19a5bb7cf8a21a, type: 3}
 --- !u!4 &2051148772 stripped
@@ -13780,7 +13915,7 @@ GameObject:
   - component: {fileID: 2064027252}
   - component: {fileID: 2064027251}
   - component: {fileID: 2064027250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ForeLeg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
