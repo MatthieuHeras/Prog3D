@@ -10,7 +10,7 @@ public class Grenade : MonoBehaviour
     [SerializeField] private GameObject explosionEffect = default;
     public LayerMask layer;
 
-    void Start()
+    void Start() // Way of doing it with a Coroutine
     {
         StartCoroutine(nameof(Explode));
     }
