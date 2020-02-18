@@ -7,6 +7,7 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private Animator anim = default;
+    [SerializeField] private TextMeshProUGUI title = default;
     [SerializeField] private TextMeshProUGUI text = default;
     [SerializeField] private Image image = default;
 
@@ -18,6 +19,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Start of conv");
         sentences = new Queue<string>();
         image.sprite = dialogue.image;
+        title.text = dialogue.name;
         foreach (string sentence in dialogue.sentences)
             sentences.Enqueue(sentence);
         DisplayNextSentence();
@@ -30,8 +32,11 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-        
-        text.text = sentences.Dequeue();
+
+        string sentence = sentences.Dequeue();
+        text.text = sentence;
+        if (sentence.Contains("<b>"))
+            anim.SetTrigger("Shake");
     }
 
     private void EndDialogue()

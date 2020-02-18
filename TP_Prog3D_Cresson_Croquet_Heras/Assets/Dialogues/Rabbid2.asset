@@ -16,6 +16,6 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 6d146c380ba4b1644b2c45b62ec4ca20, type: 3}
   sentences:
   - Bwaah-chooo !!
-  - Gimme so-food, glouglouglou !
+  - <#00FF00>Gimme so-food,</color> <#ff0000>glouglouglou !</color>
   - Bothothaaaaaaaa!!! Baaaahehehe ! Boh.
   - Uh-ah.
